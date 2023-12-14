@@ -1,0 +1,121 @@
+Que es github?:
+
+Sistema de control de versiones: Sistema, programa que controla o administra 
+las distintas versiones de un programa. Quiero controlar un proyecto
+que va a crecer - git
+
+Voy a hacer cambio, modificando un proyecto, para estos cambios ocupo
+un sistema de control de versiones.
+
+Git- Este es el que se encarga de la chamba, este es el que mantiene
+el contro de versiones y proporciona las herramientas principales
+para trabajos colaborativos.
+
+GitHub- Es como el servicio en la nuve para guardar archivos.
+_______________________________________________________________________
+
+Es opensourse creado por linux torvalds.
+Administrar toda la compligidad de un programa grande
+En equipo, desde donde sea.
+Puedes trabajar solo y usar hithub haciendo mas profecional este desarollo.
+
+
+Vas a poder trabajar con un repositorio del codigo y todos los 
+desarolladores van a tener una copia local. 
+
+Repositorio: un repositorio solo es un computador que administra tu 
+codigo, tu codigo va ser accesible a los programoderes que quieras
+hay repositorios Locales y remotos
+
+
+
+
+
+[Conceptos claves de Git]
+
+- Navegar entre las versiones gracias a los sanapshots. Esto has de 
+cuenta que es una captura de el codigo, y cuando navegas entre estos
+snapshots puedes modificar, copiar, cortar eliminar y cosas asi.
+
+- Git es una herramienta que interactua directamente con el sistema 
+operativo, asi que se maneja por la consola. Git te instala un tipo
+de terminal, un bash. Es una consola con mejores funcionalidades.
+tiene todos los conceptos de unix, sistema operativo linux o mac.
+
+-En git hay 3 estados 1."Working Directory" 2."Staging Area" 
+3."Repository"| Por lo que entendi. 1. Working Directory es el documento
+que usaras localmente, el que solo se almacena en tu computador. 
+2. Stating Area es cuando ya se sube a la nube pero no al repositorio
+principal. 3. Repository, el repository es cuando ya se ha subido 
+aal repositorio principal, o sea ya se guardo como una versiones.
+
+________________________________
+|{-----[Comandos Basicos]-----}|
+================================
+
+- git init: Voy a empezar o iniciar este proyecto con git
+
+- git add<file>: Pasar un archivo o carpeta del working directory al stating Area 
+
+- git status: En que estado estan tus archivos, si en el el working
+directory, stating area o repository. 
+
+- git commit: Este comando tiene la funcion de enviar el archivo que se 
+encuentra en el stating area al repository.
+
+- git push: Para subir a repositorio remoto, para que los demas 
+desarolladores puedan modificarlo.
+
+- git pull: Trae los cambios que han echos los demas desarolladores
+
+- git clone: Es para hacer una copia desde el servidor central ha tu
+computadora, o sea guardarlo localmete 
+
+- ls(operacion de terminalk de mac y linux): Comando para listar 
+directorios y archivos
+
+- pwd(operacion de unix - la misma mamada que la de arriba): Para ver 
+en que ruta de nuestro sistemas esta pocisionado el terminal.
+
+- cd: entrar a esa carpeta
+
+{
+bash: intento
+staging: puesta en esena, ensayo, parcatica
+Staging are: area de ensayo o area de practica 
+snap: quebrar
+snapshot: instantanea, fotografia
+}
+
+
+
+
+---------------------------------------------------------------
+
+- git  init: Ya empezamos trabajando en el working directory
+
+- git add: Se agrega al Staging Area.
+
+- SnapShot: como un punto de partida
+
+- git commit: Es para pasar los archivos guardados en el staging area
+al repositorio, a esto se la llama snapshot. Para hacer esto te va a 
+pedir lo siguiente
+    
+        - Agregar el Correo de la perosona que esta haciendo ese snapshot    
+        - Agregar el nombre de usuario de la persona que hace el snapshot   
+        
+        ------------------------------------
+        - git config --global user.email "correo"
+        - git config --global user.name "nombre"
+_______________________________________________________________________
+
+git commit: Luego de poner tus nombres y correo podras usar este mando
+para poder pasar los archivos de tu staging area a el repository como 
+un snapshot, luego de poner eso. Te abrira una teminal diferente.
+estara en un lenguaje y te pidara un comentario, que sera con lo que 
+se identifique el snapshot que subas. luego de eso tendras que ingrsar 
+el comando .qw y te saltara a la antigua terminal con un mensaje de los 
+cambios que se hicieron.
+
+
