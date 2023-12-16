@@ -1,0 +1,137 @@
+/*
+    [Acerca De Nosotros]-(Version 1) 
+
+Version para mobiles y pantallas pequeñas max-width: 767px
+JDNL - 
+user.email: jaimedanielnavarrolobato2@gmail.com 
+user.name: Jaime-Daniel-Navarro
+_______________________________________________________________________
+*/
+
+/* Estilos Globales */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Karla",Arial, Helvetica, sans-serif;   
+}
+body{
+    background: #111;;
+    color: #dddddd;
+}
+
+@media only screen and (max-width: 767px) {
+/*
+///////////////////////////////////////////////////////////////////////////|
+===========================================================================|
+///////////////////////////////////////////////////////////////////////////|
+*/
+body{
+    
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8em;  
+}
+.title--WevyNet{
+    font-family: 'Orbitron', sans-serif;
+    display: inline-block;
+}
+.header{
+    background: #353535;
+    padding-top: 5vw;
+    padding-bottom: 2.5vw;
+}
+.header__h1{
+    margin:0vw 45vw 4vw 2.5vw;
+    float: left;
+}
+.navegador__icono{
+    font-size: 10vw;
+    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2vw;
+}
+.navegador__div{
+    border-top: solid 2vw #d8d8d8;
+    font-size: 7vw;
+    margin-top: 8vw;
+    line-height: 1.8em;  
+}
+.navegador__ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+}
+.navegador__li{
+    border-bottom: solid .2vw #dddddd;
+    width: 80vw;
+}
+.div__division{
+    width: 100vw;
+    height: 8vw;
+}
+.section{
+
+}
+.main .title--WevyNet{
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8vw;
+}
+.section{
+    width: 90vw;
+    /* background: rgba(216, 216, 216, .15); */
+    padding-bottom: 3vw;
+    margin: auto;
+    margin-bottom: 5vw;
+}
+.section__span{
+    color: #ffde00;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 4px;
+    font-size: 5vw;
+}
+.section__article{
+    
+}
+.section__div{
+
+}
+.section__h2{
+    font-size: 3.5vw;
+    margin-bottom: 2.2vw;
+}
+.section__p{
+    font-size: 2.75vw;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: .15vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////|
+===========================================================================|
+///////////////////////////////////////////////////////////////////////////|            */
+}
+
+/* 
+font-family: 'Exo', sans-serif;
+font-family: 'Karla', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Space Mono', monospace;
+*/

@@ -115,7 +115,91 @@ para poder pasar los archivos de tu staging area a el repository como
 un snapshot, luego de poner eso. Te abrira una teminal diferente.
 estara en un lenguaje y te pidara un comentario, que sera con lo que 
 se identifique el snapshot que subas. luego de eso tendras que ingrsar 
-el comando .qw y te saltara a la antigua terminal con un mensaje de los 
-cambios que se hicieron.
+el comando :wq y te saltara a la antigua terminal con un mensaje de los 
+cambios que se hicieron. Empieza a crear un hash o un id para cada documento
+
+id: c100644
+
+-git log: Para ver todos los snapshot o coming que hicimos, te da un id 
+como para que lo diferencies.
+
+el git status solo sirve para pasar de working directory al staging area
+, si no hay6 nada o ya lo subiste, entonces no vas a poder subir nada, o sea
+con el git status te va a salir que bno hay nada para guardar.
+
+Cuando das el git commit para subirlo y te sale la otra terminal
+para ponerle un nombre y el .wq para guardar, esa terminal esta en
+codigo vin.
+
+para guardar y salir de vin es ":wq" por write y quit.
+para salir nada mas, sin guardar nada, solo con q.
+para haz echi cambios quieres forzar la salida con q!.
+_______________________________________________________________________
+Navegar por snapshot
+
+- git checkout -- nombreDeArchivo.html : Te va a reescribir el codigo
+que tenias cuando hiciste el ultimo snapshot
+
+- git diff: Si por ejemplo editas un codigo opbviamente este va ser
+diferente asi que pues aun asi lo puedes checar con git status, en
+caso de que si sea diferente puedes usar git diff, lo que hace es 
+que te da todo el codigo diferente de la version guardada en el 
+snapshot al actual del working directory.
+
+Si al ingresar git status sale un archivo con un slash "/" quiere
+decir que es una carpeta.
+
+si quieres ignorae un archivo o carpeta puedes crar un archivo tipo
+.gitignore y aqui poner la ruta o nombre de los archivos a ignorar.
+
+pudes agregar todo el contenido ignorado si agregas el archivo .gitignore
+Cuando ignoras un archivo va a ser que cuando uses el git status no 
+aparezca ese archivo mas que el .gitignore. 
+
+Igual solo podras agregar esos archivos ignorados agregando el 
+archivo .gitignore.
+
+=============
+git init
+git status
+git add
+git commit
+git log
+git checkout
+git diff
+git commit -m ""
+cd
+ls
+pwd
+:wqq
+q!
+
+con git commit -m "": te evitas entrar al codigo vin
 
 
+- git branch: el git branch, haz de cuenta que hasta ahora con el 
+git add, el git commit lo que haz echo es tomar solo snapshots de tus 
+codigos en un solo proyecto, el master. Pues aparte de las snapshots 
+tambien existen las ramas o branch. el cual sirve para hacer codigos 
+alternos desde el punto que lo creas. 
+
+- git branch: te mostrara todas las ramas que hay, si no haz creado 
+ninguna te aparecera nada mas el master, te marca en verde contal 
+en que rama estas
+
+= git branch nombreDeRama: Escribir git branch y luego el nombre de 
+que le quieres poner a la rama. Luego de esto se creara la rama con 
+el nombre que le diste
+
+- git checkout nombreDeLaRama, asi cambiaras a la rama que deseas, 
+puedesusar el git branch para checar que si allas entrado 
+
+_____________________________________________________________________|
+
+Repositorio remoto
+
+- git remote add origin direccionDeRepositorio: 
+
+- git push -u origin master: 
+
+======================================================================|
